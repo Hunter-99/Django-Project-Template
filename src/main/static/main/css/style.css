@@ -1,0 +1,23 @@
+body {
+    background-color: #22272e;
+    color: #cdd9e5;
+}
+
+
+.congratulation {
+    margin: auto;
+    text-align: center;
+}
+
+.congratulation__cover {
+    height: 165px;
+}
+
+.cover__img {
+    width: 500px;
+    height: 100%;
+}
+
+.congratulation__message {
+    font-size: 30px;
+}

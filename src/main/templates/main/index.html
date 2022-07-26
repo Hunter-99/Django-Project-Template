@@ -1,0 +1,18 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block title %}
+    Home page
+{% endblock %}
+
+{% block main %}
+    <div class="congratulation">
+        <div class="congratulation__cover">
+            <img class="cover__img" src="{% static 'main/img/cover.png' %}">
+        </div>
+        <div class="congratulation__message">
+            <span class="message-text">
+                You have successfully installed and launched Django-Project-Template from Docker container!
+            </span>
+        </div>
+    </div>
+{% endblock %}
